@@ -1,0 +1,22 @@
+ MP                                                  name  n_animals                                                  top_go_term  top_go_padj  n_go_terms_expressed_universe  n_go_terms_hvg_universe
+MP1             Glycosylation & K+ channels (Ptprm+Tshz2)          9                    heparan sulfate sulfotransferase activity     0.031030                              7                        0
+MP2         Synapse / cell-junction assembly (Cux2+Trpc6)          9                                       cell junction assembly     0.000919                             12                        9
+MP3                 Neuronal differentiation TFs (Foxp2+)          8                central nervous system neuron differentiation     0.044705                              8                        0
+MP4      Ribosome & oxidative phosphorylation (Cux2+Fth1)          6                     nitric-oxide synthase regulator activity     0.000001                             59                       23
+MP5      Postsynaptic density & cadherin adhesion (Cdh9+)          6                                postsynaptic density membrane     0.000010                             29                       15
+MP6 Ligand-gated cation channels & axon guidance (Ntng1+)          5 intracellularly ligand-gated monoatomic ion channel activity     0.000800                              8                        5
+MP7       Ionotropic glutamate receptor complex (Kcnip1+)          4                        ionotropic glutamate receptor complex     0.000286                             32                       12
+MP8               Cadherin-mediated adhesion (Cux2+Htr2c)          3                                              catenin complex     0.000677                              7                        1
+subtype   contrast  MP     diff         t       p  n     fdr
+ Ntng1+ CES vs CON MP5 0.039323 10.433738 0.00093  6 0.09676
+               diff                     p           
+contrast CES vs CON CPS vs CON CES vs CON CPS vs CON
+MP                                                  
+MP1          0.0350    -0.0687     0.4253     0.2989
+MP2         -0.0167    -0.0450     0.4656     0.1341
+MP3          0.0338    -0.0112     0.2686     0.6948
+MP4         -0.1667    -0.1298     0.2296     0.3221
+MP5          0.0413     0.0672     0.0990     0.1089
+MP6          0.0273    -0.0008     0.2763     0.9783
+MP7          0.0225    -0.0143     0.4439     0.7076
+MP8         -0.0170    -0.0699     0.5684     0.1666

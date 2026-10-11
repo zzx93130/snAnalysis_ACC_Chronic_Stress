@@ -1,0 +1,66 @@
+[    1.0s] combined (65736, 19074)
+[    1.3s] counts object (75570, 32272); barcodes missing from counts: 0
+OMP: Info #276: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+2026-10-09 07:42:19,057 - harmonypy - INFO - Computing initial centroids with sklearn.KMeans...
+2026-10-09 07:42:21,887 - harmonypy - INFO - sklearn.KMeans initialization complete.
+2026-10-09 07:42:22,017 - harmonypy - INFO - Iteration 1 of 50
+2026-10-09 07:42:27,802 - harmonypy - INFO - Iteration 2 of 50
+2026-10-09 07:42:33,783 - harmonypy - INFO - Iteration 3 of 50
+2026-10-09 07:42:39,950 - harmonypy - INFO - Iteration 4 of 50
+2026-10-09 07:42:43,257 - harmonypy - INFO - Converged after 4 iterations
+[   78.6s] all-cell UMAP done
+2026-10-09 07:43:58,823 - harmonypy - INFO - Computing initial centroids with sklearn.KMeans...
+2026-10-09 07:44:01,178 - harmonypy - INFO - sklearn.KMeans initialization complete.
+2026-10-09 07:44:01,250 - harmonypy - INFO - Iteration 1 of 50
+2026-10-09 07:44:05,127 - harmonypy - INFO - Iteration 2 of 50
+2026-10-09 07:44:09,250 - harmonypy - INFO - Iteration 3 of 50
+2026-10-09 07:44:12,136 - harmonypy - INFO - Iteration 4 of 50
+2026-10-09 07:44:13,460 - harmonypy - INFO - Iteration 5 of 50
+2026-10-09 07:44:14,850 - harmonypy - INFO - Converged after 5 iterations
+[  167.7s] neurons (48971, 19074) done
+Experiment     CES   CON   CPS
+subtype                       
+Arhgap6+       122    71   158
+Astro         1887  2616   818
+Cdh9+         1635  1797  1073
+Cnr1+          194   220   133
+Cux2+Col19a1  1698  1919  1232
+Cux2+Fth1      796  1312   535
+Cux2+Htr2c     394   512   508
+Cux2+Rorb     2026  2340  1393
+Cux2+Trpc6    1544  1691   971
+Endo           372   487   118
+Foxp2+        2033  2364  1808
+Kcnip1+        631   780   548
+Lamp5+         271   365   200
+Micro         1467  1735   544
+Mural          188   227    89
+Ntng1+         908  1295   763
+OPC            509   597   207
+Oligo         2327  1677   900
+Ptprm+Nell1   1293  1548   989
+Ptprm+Tshz2    960  1219  1093
+Pvalb+         806   804   637
+Sst+           722   805   514
+Vip+           459   542   340
+sample          CON_1  CON_2  CON_3  CES_1  CES_2  CES_3  CPS_1  CPS_2  CPS_3
+major_celltype                                                               
+Astro               5      4     19     25      0      6      3      2      2
+Endo                2      0      8     16      3      4      0      5      1
+ExNeuron            6      2      9     36      0      3     12      5      8
+InNeuron            1      0     10     13      1      2      3      0      3
+Micro               4      1      5      6      3      0      4      1     12
+Mural               1      7      8      2      5      1      3      0      2
+OPC                 3      5      5      6      4      3      6      3      4
+Oligo              10     14     12     24      8      3     12      2      3
+          n  misplaced  no_lineage_marker
+sample                                   
+CON_1   615          4                  7
+CON_2   747          1                  6
+CON_3   373          5                  3
+CES_1   478          6                 21
+CES_2   607          3                  2
+CES_3   382          0                 14
+CPS_1   232          4                  5
+CPS_2   248          1                  1
+CPS_3    64         12                  6

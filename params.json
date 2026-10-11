@@ -1,0 +1,11 @@
+{
+  "deg_method": "scanpy rank_genes_groups t-test (cell level), log-normalised expression, per cell group and contrast",
+  "deg_padj": 0.05,
+  "deg_log2fc": 0.25,
+  "background_min_pct": 0.01,
+  "pseudobulk_method": "limma-voom on summed UMI counts per sample x cell group, filterByExpr + TMM, min 10 cells per sample",
+  "go": "clusterProfiler enrichGO ont=ALL, BH, pvalueCutoff 0.05, qvalueCutoff 0.2, minGSSize 10, maxGSSize 500, simplify cutoff 0.7 (Wang)",
+  "cellchat": "CellChat v2 CellChatDB.mouse, triMean, nboot 100, population.size FALSE, min.cells 30, per-sample/per-type downsampling to <=500 cells",
+  "progeny": "PROGENy mouse top 500 (progeny R package model), decoupler ULM on per-sample mean log-expression, Welch t-test vs CON, BH",
+  "seed": 0
+}

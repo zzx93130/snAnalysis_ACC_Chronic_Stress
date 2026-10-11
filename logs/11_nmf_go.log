@@ -1,0 +1,184 @@
+== hvg_universe 
+       MP     N
+   <char> <int>
+1:    MP2     9
+2:    MP4    23
+3:    MP5    15
+4:    MP6     5
+5:    MP7    12
+6:    MP8     1
+        MP ONTOLOGY                                     Description GeneRatio
+    <char>   <char>                                          <char>    <char>
+ 1:    MP2       BP            regulation of cell junction assembly      7/29
+ 2:    MP2       BP                          cell junction assembly      9/29
+ 3:    MP2       CC                                        dendrite      9/29
+ 4:    MP2       CC                   postsynaptic density membrane      5/29
+ 5:    MP4       CC                       ribonucleoprotein complex     10/30
+ 6:    MP4       CC                                   myelin sheath      8/30
+ 7:    MP4       CC                                         cytosol     18/30
+ 8:    MP4       CC                               catalytic complex      9/30
+ 9:    MP5       CC                   postsynaptic density membrane      7/30
+10:    MP5       CC                        neuron to neuron synapse     10/30
+11:    MP5       BP                      cell junction organization     13/29
+12:    MP5       CC                 extrinsic component of membrane      5/30
+13:    MP6       CC                               neuron projection     14/30
+14:    MP6       CC                presynaptic active zone membrane      3/30
+15:    MP6       MF ligand-gated monoatomic cation channel activity      4/29
+16:    MP6       CC                     somatodendritic compartment      9/30
+17:    MP7       CC                                         synapse     16/30
+18:    MP7       CC           ionotropic glutamate receptor complex      4/30
+19:    MP7       CC               neurotransmitter receptor complex      4/30
+20:    MP7       CC                                        dendrite      9/30
+21:    MP8       CC                                 catenin complex      3/29
+        MP ONTOLOGY                                     Description GeneRatio
+    <char>   <char>                                          <char>    <char>
+    p.adjust
+       <num>
+ 1:  0.00630
+ 2:  0.00630
+ 3:  0.00810
+ 4:  0.00810
+ 5:  0.00022
+ 6:  0.00024
+ 7:  0.00160
+ 8:  0.00160
+ 9:  0.00011
+10:  0.00011
+11:  0.00037
+12:  0.00086
+13:  0.00240
+14:  0.02700
+15:  0.02800
+16:  0.04700
+17:  0.00480
+18:  0.00480
+19:  0.00480
+20:  0.00480
+21:  0.03500
+    p.adjust
+       <num>
+Warning message:
+In readLines(univ_file) :
+  incomplete final line found on 'go_universe_hvg.txt'
+== expressed_universe 
+       MP     N
+   <char> <int>
+1:    MP1     7
+2:    MP2    12
+3:    MP3     8
+4:    MP4    59
+5:    MP5    29
+6:    MP6     8
+7:    MP7    32
+8:    MP8     7
+        MP ONTOLOGY
+    <char>   <char>
+ 1:    MP1       MF
+ 2:    MP1       MF
+ 3:    MP1       MF
+ 4:    MP1       MF
+ 5:    MP2       BP
+ 6:    MP2       BP
+ 7:    MP2       CC
+ 8:    MP2       BP
+ 9:    MP3       BP
+10:    MP3       BP
+11:    MP3       BP
+12:    MP3       BP
+13:    MP4       MF
+14:    MP4       CC
+15:    MP4       CC
+16:    MP4       MF
+17:    MP5       CC
+18:    MP5       BP
+19:    MP5       CC
+20:    MP5       CC
+21:    MP6       MF
+22:    MP6       BP
+23:    MP6       MF
+24:    MP6       MF
+25:    MP7       CC
+26:    MP7       CC
+27:    MP7       CC
+28:    MP7       CC
+29:    MP8       CC
+30:    MP8       BP
+31:    MP8       MF
+32:    MP8       MF
+        MP ONTOLOGY
+    <char>   <char>
+                                                        Description GeneRatio
+                                                             <char>    <char>
+ 1:                       heparan sulfate sulfotransferase activity      2/27
+ 2:          polypeptide N-acetylgalactosaminyltransferase activity      2/27
+ 3:                              monoatomic cation channel activity      4/27
+ 4:                potassium ion transmembrane transporter activity      3/27
+ 5:                                          cell junction assembly      9/29
+ 6:                            regulation of cell junction assembly      7/29
+ 7:                                   postsynaptic density membrane      5/29
+ 8:       cell-cell adhesion via plasma-membrane adhesion molecules      5/29
+ 9:                   central nervous system neuron differentiation      5/29
+10:                           retina development in camera-type eye      4/29
+11:    epithelial cell proliferation involved in lung morphogenesis      2/29
+12:                                      glial cell fate commitment      2/29
+13:                        nitric-oxide synthase regulator activity      4/29
+14:                                              cytosolic ribosome      7/30
+15:                                                   myelin sheath      8/30
+16:                              structural constituent of ribosome      7/29
+17:                                   postsynaptic density membrane      7/30
+18: homophilic cell adhesion via plasma membrane adhesion molecules      6/29
+19:                                              asymmetric synapse      9/30
+20:                                                    cell surface      8/30
+21:    intracellularly ligand-gated monoatomic ion channel activity      3/29
+22: homophilic cell adhesion via plasma membrane adhesion molecules      5/30
+23:                                   ligand-gated channel activity      4/29
+24:                                  cell adhesion molecule binding      5/29
+25:                           ionotropic glutamate receptor complex      4/30
+26:                               neurotransmitter receptor complex      4/30
+27:                                   postsynaptic density membrane      5/30
+28:                                              asymmetric synapse      7/30
+29:                                                 catenin complex      3/29
+30:       cell-cell adhesion via plasma-membrane adhesion molecules      6/29
+31:                                                cadherin binding      3/28
+32:                                             calcium ion binding      6/28
+                                                        Description GeneRatio
+                                                             <char>    <char>
+    p.adjust
+       <num>
+ 1:  3.1e-02
+ 2:  3.1e-02
+ 3:  4.0e-02
+ 4:  4.5e-02
+ 5:  9.2e-04
+ 6:  1.9e-03
+ 7:  4.2e-03
+ 8:  1.5e-02
+ 9:  4.5e-02
+10:  4.5e-02
+11:  4.5e-02
+12:  4.5e-02
+13:  1.3e-06
+14:  1.6e-06
+15:  1.6e-06
+16:  6.8e-06
+17:  9.9e-06
+18:  5.9e-05
+19:  6.0e-05
+20:  2.5e-04
+21:  8.0e-04
+22:  2.1e-03
+23:  3.7e-03
+24:  6.5e-03
+25:  2.9e-04
+26:  2.9e-04
+27:  1.5e-03
+28:  2.4e-03
+29:  6.8e-04
+30:  1.4e-03
+31:  1.6e-02
+32:  1.6e-02
+    p.adjust
+       <num>
+Warning message:
+In readLines(univ_file) :
+  incomplete final line found on 'go_universe_expressed.txt'

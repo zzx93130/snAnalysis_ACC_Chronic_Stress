@@ -1,0 +1,63 @@
+    panel                                        name  n_source
+       1A               figure1A_umap_major_celltypes         1
+       1B                     figure1B_marker_heatmap         1
+       1C                      figure1C_umap_by_group         1
+       1D                         figure1D_upset_DEGs         2
+       1E               figure1E_composition_alluvial         1
+       1F                        figure1F_ExNeuron_GO         1
+       1G               figure1G_disease_gene_overlap         1
+       2A               figure2A_umap_neuron_subtypes         1
+       2B        figure2B_composition_neuron_subtypes         2
+       2C         figure2C_DEG_counts_neuron_subtypes         1
+       2D                figure2D_DEG_jaccard_CES_CPS         1
+       2E                      figure2E_Cdh9_DEG_venn         1
+       2F                    figure2F_Cdh9_GO_overlap         1
+       3A                 figure3A_Cdh9_shared_DEG_GO         1
+       3B             figure3B_Cdh9_shared_DEG_log2FC         1
+       3C                      figure3C_cellchat_Cdh9         2
+3C_merged figure3C_merged_cellchat_Cdh9_merged_groups         1
+       3D              figure3D_progeny_all_celltypes         1
+       3E                       figure3E_progeny_Cdh9         1
+       3F                  figure3F_Cdh9_gene_violins         1
+       S1         figureS1_split_threshold_per_animal         1
+       S2          figureS2_ExNeuron_NMF_metaprograms         4
+       S3             figureS3_neuron_subtype_markers         1
+status
+final                                                 65736
+excluded: mixed cluster (Astro_ExNeuron)               2230
+excluded: mixed cluster (Oligo_ExNeuron)               2069
+excluded: mixed cluster (OPC_ExNeuron)                 1948
+excluded: ExNeuron pass-1 cluster 11 (low quality)     1191
+excluded: mixed cluster (Micro_ExNeuron)               1079
+excluded: lineage check                                 803
+excluded: InNeuron cluster 7 (mixed Ex/In)              360
+excluded: mixed cluster (Mural_ExNeuron)                 78
+excluded: mixed cluster (Oligo_Astro)                    76
+                         count    sum
+table                                
+table10_annotation           8    168
+table1_samples_QC            6     91
+table2_cell_composition      4     92
+table3_DEGs                  3  23693
+table4_Cdh9_shared_DEGs      6   5585
+table5_GO_enrichment         4   1278
+table6_disease_overlap       1     35
+table7_CellChat              6  11101
+table8_PROGENy               4   2987
+table9_NMF                   7    633
+                                                      file     bytes                              md5
+                                  data/processed/.DS_Store     14340 cb2864e2ab4c5cfa859b1c88c7bbc6ec
+                       data/processed/cell_metadata.csv.gz   3861274 05d580e50426b1c4b36da70f734ae729
+  data/processed/cellchat/cellchat_coarse_CES_CellChat.rds  24951384 62e0ea7b0ea2b7db41e4cefa2f3df2c9
+  data/processed/cellchat/cellchat_coarse_CON_CellChat.rds  25323034 23539f4b4dab051a30a013eac427ae9d
+  data/processed/cellchat/cellchat_coarse_CPS_CellChat.rds  27158432 f386a3aa89dfc5a52f328cbd267e4f42
+data/processed/cellchat/cellchat_coarse_merged_CON_CES.rds   5872122 04c5a42067ae5140b3817f1eee7be4e5
+data/processed/cellchat/cellchat_coarse_merged_CON_CPS.rds   5962722 1209bde5a5f12de9540d574b809ac249
+    data/processed/cellchat/cellchat_fine_CES_CellChat.rds  51111265 183024d418e6524384a003c46d511084
+    data/processed/cellchat/cellchat_fine_CON_CellChat.rds  52810847 36daeed3b5dff6d7b90441f372b24274
+    data/processed/cellchat/cellchat_fine_CPS_CellChat.rds  55792445 26aee9d43726ea4311edcbabe6dd5247
+  data/processed/cellchat/cellchat_fine_merged_CON_CES.rds  10904837 85949fa99b4c0bce026ea7326754b16a
+  data/processed/cellchat/cellchat_fine_merged_CON_CPS.rds  11125546 75eebb59a5d3e97ea1134214d6408fa8
+                          data/processed/checksums_md5.csv      1375 c7d8f7f44ccd6dd1c6398454d9ab1b8f
+                    data/processed/h5ad/ACC_all_cells.h5ad 593357678 22fc1099a7dfcda887c09f02640385d0
+                      data/processed/h5ad/ACC_neurons.h5ad 518672961 510cf3d9c01925c0450e3c4e7595932d

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS
+.DS_Store
+
+# Large bioinformatics data
+*.h5ad
+*.h5
+*.loom
+*.bam
+*.fastq
+*.fastq.gz
+*.rds
+*.RData
+
+# Temporary files
+tmp/
+temp/

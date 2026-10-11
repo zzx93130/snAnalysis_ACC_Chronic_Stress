@@ -1,0 +1,67 @@
+New names:
+* `` -> `...1`
+  Celltype CON_1  SDS  CES CON_2  CPS
+1 ExNeuron  62.6 64.7 60.4  62.6 71.1
+2 InNeuron  10.2 11.0 10.5  10.2 11.7
+3    Astro   9.7  7.0  8.1   9.7  5.3
+4    Oligo   6.2  8.3 10.0   6.2  5.8
+5      OPC   2.2  1.8  2.2   2.2  1.3
+6    Micro   6.4  5.2  6.3   6.4  3.5
+7     Endo   1.8  1.3  1.6   1.8  0.8
+8    Mural   0.8  0.7  0.8   0.8  0.6
+Main (SDS) FDR<0.05:
+    celltype            trait overlap expected  n_up n_neuron_enriched     fdr
+      <char>           <char>   <int>    <num> <int>             <int>   <num>
+ 1:    Astro             ADHD       9     2.29     9                 8 1.8e-03
+ 2:    Astro Bipolar disorder      18     8.58    17                15 6.0e-03
+ 3:    Astro       Depression      10     4.22     8                 5 2.2e-02
+ 4:    Astro          Anxiety       3     0.61     3                 3 4.5e-02
+ 5:    Astro      Neuroticism      13     2.83    11                 7 4.1e-05
+ 6:    Micro             ADHD      15     5.94    14                11 2.7e-03
+ 7:    Micro Bipolar disorder      46    22.58    40                24 3.2e-05
+ 8:    Micro       Depression      39    11.23    35                21 1.5e-10
+ 9:    Micro          Anxiety       9     1.60     9                 6 9.0e-05
+10:    Micro         Insomnia       8     2.20     7                 4 3.9e-03
+11:    Micro      Neuroticism      23     7.73    23                12 3.2e-05
+12:    Oligo             ADHD       6     1.78     4                 4 2.0e-02
+13:    Oligo Bipolar disorder      20     6.72    20                16 8.3e-05
+14:    Oligo       Depression      10     3.18    10                 6 3.9e-03
+15:    Oligo          Anxiety       5     0.47     4                 4 4.1e-04
+16:    Oligo         Insomnia       6     0.69     6                 1 2.7e-04
+17:    Oligo      Neuroticism       8     2.20     8                 4 4.3e-03
+     fdr_wo
+      <num>
+ 1: 0.97000
+ 2: 1.00000
+ 3: 0.20000
+ 4: 1.00000
+ 5: 0.02500
+ 6: 0.76000
+ 7: 0.10000
+ 8: 0.00093
+ 9: 0.16000
+10: 0.11000
+11: 0.02800
+12: 0.44000
+13: 0.73000
+14: 0.16000
+15: 0.46000
+16: 0.00019
+17: 0.08700
+ExNeuron/InNeuron SDS:
+    celltype            trait overlap expected   fdr
+      <char>           <char>   <int>    <num> <num>
+ 1: ExNeuron             ADHD       8    11.85  1.00
+ 2: ExNeuron Bipolar disorder      37    43.72  1.00
+ 3: ExNeuron       Depression      17    20.33  0.95
+ 4: ExNeuron             PTSD       2     2.55  0.93
+ 5: ExNeuron          Anxiety       3     3.06  0.80
+ 6: ExNeuron         Insomnia       4     4.19  0.80
+ 7: ExNeuron      Neuroticism       7    13.48  1.00
+ 8: InNeuron             ADHD       1     3.70  1.00
+ 9: InNeuron Bipolar disorder      18    13.59  0.24
+10: InNeuron       Depression       7     6.49  0.69
+11: InNeuron             PTSD       1     0.81  0.79
+12: InNeuron          Anxiety       2     0.94  0.38
+13: InNeuron         Insomnia       0     1.33  1.00
+14: InNeuron      Neuroticism       3     4.28  0.95

@@ -1,0 +1,21 @@
+{'CON': 26923, 'CES': 23242, 'CPS': 15571} {'SDS': 38813, 'CON': 26923}
+                                                       CES   CPS
+ExNeuron InNeuron Astro Oligo OPC   Micro Endo  Mural           
+True     False    False False False False False False  804  1859
+False    True     False False False False False False   59   788
+True     True     False False False False False False   19   537
+False    False    False False False True  False False  339    94
+                  True  False False False False False  132   213
+                  False True  False False False False  113    56
+                  True  True  False True  False False   77     2
+True     False    True  False False False False False   11    62
+False    False    True  False False True  False False   58     5
+True     False    False False False True  False False   45    16
+False    False    False True  False True  False False   49     2
+                  True  True  False False False False   37    10
+True     True     True  False False False False False    1    45
+False    True     True  False False False False False    5    35
+         False    False False False False True  False   11    24
+         True     False False False True  False False    5    18
+         False    True  True  True  True  False False   18     1
+Fig1 done

@@ -1,0 +1,23 @@
+OMP: Info #276: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+[     6s] ExNeuron 41959 nuclei, 2000 HVGs
+[    10s] 54 NMF fits done
+[    12s] 351 factors written
+factors 351; recurrent within 342, across 351; selected 52; MPs 8
+         n_factors  n_animals
+cluster                      
+MP1              9          9
+MP2              9          9
+MP3              8          8
+MP4              6          6
+MP5              6          6
+MP6              5          5
+MP7              4          4
+MP8              3          3
+MP1 Il1rapl2 Galntl6 Ptprm Hs6st3 Rora Slc24a3 Zfp804b Gpc6 Kcnh5 Nkain3 Zmat4 Ndst3 Etv1 Fat3 Olfm3
+MP2 Grm1 Cux2 Rasgrf2 Ccbe1 Dgkb Cntnap5a Trpc6 Meis2 Tafa1 Fstl4 Nectin3 Kcnc2 Stxbp6 Rfx3 Ptprk
+MP3 Hs3st4 Cdh18 Htr1f Grik3 Pdzrn4 Foxp2 Sdk2 Mgat4c Mctp1 Cntnap4 Dlc1 Garnl3 Tle4 Ano4 Zfpm2
+MP4 Fth1 Ube3a Calm1 Ctnna3 Eif1 Rpl37 Eef1a1 Nrgn Rpl23a Rpl41 Tpt1 Atp6v0c Cck Cox8a Rps8
+MP5 Sgcd Sorcs3 Galnt14 Tenm3 Nell1 Cdh9 Cdh13 Il1rapl2 Dcc St6galnac5 Clstn2 Zfp804b Dgkb Ptprt Slc24a2
+MP6 Tafa1 Pex5l Cdh13 Ryr3 Dscaml1 Hcn1 Ntng1 L3mbtl4 Ndst3 Sorcs2 Kcnn2 Bcl11b Robo1 Fras1 Kirrel3
+MP7 Tshz2 Vwc2l Grik1 Mgat4c Nxph1 Cntn6 Htr2c Dcc Kcnip1 Kirrel3 Olfm3 Pcsk5 Hs3st4 Camk2d Neto2
+MP8 Brinp3 Tshz2 Kcnh5 Tafa2 Prr16 Cacna2d3 Lingo2 Cdh20 Cdh12 Cntn4 Cux1 Rcan2 Spock3 Alcam Pde7b
