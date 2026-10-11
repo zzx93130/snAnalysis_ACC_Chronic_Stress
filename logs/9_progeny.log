@@ -1,2 +1,0 @@
-OMP: Info #276: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
-{'discordant': 149, 'down_in_both': 95, 'up_in_both': 50} groups 21

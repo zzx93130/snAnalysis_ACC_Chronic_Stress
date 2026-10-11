@@ -1,2 +1,0 @@
-{'n_qc': 75570, 'n_final': '65,736', 'n_neurons': '48,971', 'n_ex': '41,959', 'n_in': '7,012', 'cdh9_jaccard': '0.167', 'cdh9_shared': 204, 'cdh9_ces_only': 387, 'cdh9_cps_only': 630, 'n_up': 87, 'n_down': 112, 'n_opp': 5}
-docs written: ['1_methods.docx', '2_code_figure_table_map.docx', '3_data_and_objects.docx', '4_qc_and_annotation.docx', '5_figure_legends.docx', '5_figure_legends_2.docx', '~$data_and_objects.docx', '~$figure_legends.docx', '~$figure_legends_2.docx']
